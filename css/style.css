@@ -29,6 +29,16 @@ body {
     max-width: 1000px;
     margin: auto;
 }
+.container_small {
+    width: 50%;
+    margin: auto;
+}
+.hero .float-start, .hero .float-end {
+    width: 40%;
+}
+.line {
+    height: 2px;
+}
 /*-------------------
     HEADER
 -------------------*/
@@ -41,4 +51,10 @@ header i {
 header a {
     text-decoration: none;
     color: inherit;
+}
+/*-------------------
+    HERO
+-------------------*/
+.hero img {
+    width: 40%;
 }

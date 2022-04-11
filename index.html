@@ -18,7 +18,7 @@
         <title>Bootrasp</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body class="text-white">
         <header>
             <div class="container d-flex justify-content-between align-items-center py-3 text-white text-uppercase">
                 <!-- titolo -->
@@ -32,15 +32,15 @@
                 <!-- Nav bar da md view in poi  -->
                 <nav class="d-none d-md-block">
                     <ul class="m-0">
-                        <li class="d-inline-block">
+                        <li class="d-inline-block px-2">
                             <a href="#portfolio">Portfolio</a>
                         </li>
-                        <li class="d-inline-block">
+                        <li class="d-inline-block px-2">
                             <a href="#about">About</a>
                         </li>
-                        <li class="d-inline-block">
+                        <li class="d-inline-block px-2">
                             <a href="#contact">Contact</a>
-                        </li class="d-inline-block">
+                        </li>
                     </ul>
                 </nav>
                 <!-- /Nav bar da md view in poi  -->
@@ -48,17 +48,24 @@
         </header>
         <main>
             <!-- Sezione hero  -->
-            <section class="hero">
-                <div class="container_max_1000px">
-                    <div class="container-fluid text-center py-5">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repudiandae obcaecati voluptatum. Expedita quidem illo quas nulla molestias tempora id, ipsa hic nobis. Consequuntur fuga reiciendis, at ad blanditiis accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore iure earum blanditiis aperiam cum corrupti mollitia! Ducimus, et consequatur pariatur facere repudiandae vitae quo enim fuga in culpa quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. A dignissimos voluptatum aperiam sunt? Esse magnam nobis ipsam, quae minima pariatur nostrum hic explicabo beatae provident cupiditate velit placeat veritatis expedita.
+            <section class="hero py-3">
+                <div class="container_max_1000px text-center">
+                    <img src="img/avatar.svg" alt="Avatar">
+                    <div class="container-fluid text-center py-3 text-uppercase">
+                        <h1>start bootstrap</h1>
+                        <div class="clearfix container_small">
+                            <div class="line float-start bg-white rounded-1 align-middle"></div>
+                            <div class="line float-end bg-white rounded-1 align-middle"></div>
+                            <i class="fa-solid fa-star"></i>
+                        </div>   
+                        <p class="m-0">Graphic artist - web designer - illustrator</p>
                     </div>
                 </div>
             </section>
             <!-- /Sezione hero  -->
             <!-- Sezione portfolio  -->
             <section id="portfolio">
-                <div class="container text-center text-uppercase">
+                <div class="container text-center text-uppercase py-3">
                     <h2>Portfolio</h2>
                     <hr>
                     <div class="row">
@@ -74,7 +81,7 @@
             <!-- /Sezione portfolio  -->
             <!-- sezione about  -->
             <section id="about">
-                <div class="container_max_1000px">
+                <div class="container_max_1000px py-3">
                     <div class="container-fluid text-center text-uppercase">
                         <h2>About</h2>
                         <hr>
@@ -93,7 +100,7 @@
             <!-- /sezione about  -->
             <!-- sezione contact me  -->
             <section id="contact">
-                <div class="container_max_1000px">
+                <div class="container_max_1000px py-3">
                     <div class="container-fluid">
                         <h2 class="text-uppercase text-center">Contact me</h2>
                         <hr>
@@ -108,7 +115,7 @@
             <!-- /sezione conctact me  -->
         </main>
         <footer>
-            <div class="footer_top">
+            <div class="footer_top py-2">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus vero temporibus veritatis pariatur alias sit amet ullam iure animi molestias! Quasi dolor hic perferendis et. Omnis saepe eius animi quis.</div>
@@ -117,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer_bot text-center">
+            <div class="footer_bot text-center py-2">
                 <p class="m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, itaque? Voluptatibus distinctio perferendis nihil ut aut expedita, corporis labore in doloremque dolorum modi quam accusantium consequatur quo soluta enim earum.</p>
             </div>
         </footer>
