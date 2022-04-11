@@ -33,11 +33,9 @@ body {
     width: 50%;
     margin: auto;
 }
-.hero .float-start, .hero .float-end {
-    width: 40%;
-}
 .line {
     height: 2px;
+    width: 40%
 }
 /*-------------------
     HEADER
