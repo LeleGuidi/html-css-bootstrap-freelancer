@@ -11,6 +11,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 /*-------------------
+    COLOR
+-------------------*/
+.hero, #about {
+    background-color: #1abc9c;
+}
+/*-------------------
     COMMON
 -------------------*/
 .container_max_900px {
@@ -29,10 +35,4 @@ header i {
 header a {
     text-decoration: none;
     color: inherit;
-}
-/*-------------------
-    HERO
--------------------*/
-.hero {
-    background-color: #1abc9c;
 }
