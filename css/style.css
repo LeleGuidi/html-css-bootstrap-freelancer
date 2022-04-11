@@ -1,8 +1,21 @@
 /*-------------------
+    DEBUG
+-------------------*/
+[class*="col"] {
+    min-height: 300px;
+}
+/*-------------------
     TYPO
 -------------------*/
 body {
     font-family: 'Roboto', sans-serif;
+}
+/*-------------------
+    COMMON
+-------------------*/
+.container_max_900px {
+    max-width: 900px;
+    margin: auto;
 }
 /*-------------------
     HEADER
@@ -16,4 +29,10 @@ header i {
 header a {
     text-decoration: none;
     color: inherit;
+}
+/*-------------------
+    HERO
+-------------------*/
+.hero {
+    background-color: #1abc9c;
 }
