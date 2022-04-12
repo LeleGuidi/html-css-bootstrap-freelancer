@@ -22,6 +22,9 @@ body {
 .border_grey {
     border: 1px solid #2c3e50;
 }
+.border_white {
+    border: 1px solid white;
+}
 .bg_green {
     background-color: #1abc9c;
 }
