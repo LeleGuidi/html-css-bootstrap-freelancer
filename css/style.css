@@ -13,17 +13,11 @@ body {
 .footer_top {
     background-color: #3a546d;
 }
-.footer_bot {
-    background-color: #2c3e50;
-}
-#portfolio, #contact {
+.footer_bot, #portfolio, #contact {
     color: #2c3e50;
 }
 .border_grey {
     border: 1px solid #2c3e50;
-}
-.border_white {
-    border: 1px solid white;
 }
 .bg_green {
     background-color: #1abc9c;
@@ -34,9 +28,6 @@ body {
 .line {
     height: 2px;
     width: 20%
-}
-section {
-    padding: 20px 0;
 }
 .container_small {
     max-width: 65%;
@@ -56,12 +47,8 @@ section {
 header {
     background-color: #2c3e50;
 }
-header i {
-    color: #888888;
-}
-header a {
-    text-decoration: none;
-    color: inherit;
+.border_big {
+    border: 2px solid white;
 }
 /*-------------------
     HERO
